@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="https://kit.fontawesome.com/8d445e7dae.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+<!-- ---------- Header ---------- -->
+<div id="header">
+  <div class="container">
+    <nav>
+      <img src="images/logo.png" class="logo" alt="Logo">
+      <ul id="sidemenu"></ul>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work">work</a></li>
+        <li><a href="#contact">Contact</a></li>
+        
+      </ul>
+        
+    </nav>
+    <div class="header-text">
+      <p class="emoji">👋</p>
+      <p class="role">Full Stack Developer</p>
+      <h1> Hi, I'm <span class="name">Sandani</span><br>
+        <span class="line2">Wijesinghe From Sri Lanka</span>
+      </h1>
+
+      <!-- Social Links -->
+      <div class="social-icons">
+        <a href="https://github.com/nehansasandani" target="_blank" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/sandani-nehansa-0b5067395" target="_blank" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- ---------- About ---------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/user.png" alt="User">
+          
+        </div>
+
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me  <span class="emoji">👨‍💻</span></h1>
+          <div class="about-box">
+          <p>
+           Hello! I’m Sandani Wijesinghe, a passionate Full Stack Developer from Colombo, Sri Lanka, and a motivated third-year undergraduate specializing in Information Technology at SLIIT (Sri Lanka Institute of Information Technology).<br>I enjoy turning ideas into reality by building user-focused, scalable, and efficient web applications using modern technologies. With a strong foundation in computer science and hands-on experience in real-world projects, I continuously strive to grow as a developer and sharpen my technical skills.<br>What drives me most is the ability to solve real-world problems through code. I love exploring new tools, learning emerging technologies, and challenging myself to create solutions that make a meaningful impact. I believe in writing clean, maintainable code and designing applications that deliver great user experiences.I have experience working with technologies such as PHP, HTML, CSS, JavaScript, Python, and Java, and I’m always eager to expand my stack and adapt to new challenges. Beyond coding, I value collaboration, creativity, and continuous learning
+          </p>
+        </div>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills', this)">Skills</p>
+            <p class="tab-links" onclick="opentab('experience', this)">Experience</p>
+            <p class="tab-links" onclick="opentab('education', this)">Education</p>
+          </div>
+
+          <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+            <li><span>Web Development</span><br>Building responsive websites</li>
+            <li><span>App Development</span><br>Building Android/iOS apps</li>
+            <li><span>Power BI</span><br>Data visualization and reporting</li>
+             <li><span>Data Entry</span><br>Managing and entering data efficiently</li>
+             <li><span>Leadership</span><br>Leading teams and projects effectively</li>
+             <li><span>Communication</span><br>Clear and effective communication skills</li>
+             <li><span>Problem Solving</span><br>Analyzing issues and finding solutions</li>
+             
+          </ul>
+
+          <div class="skills-icons">
+            <div><i class="fab fa-java"></i><p>Java</p></div>
+            <div><i class="fab fa-python"></i><p>Python</p></div>
+            <div><i class="fab fa-node-js"></i><p>Node.js</p></div>
+            <div><i class="fas fa-server"></i><p>Express.js</p></div>
+            <div><i class="fab fa-github"></i><p>GitHub</p></div>
+            <div><i class="fas fa-database"></i><p>MongoDB</p></div>
+            <div><i class="fas fa-database"></i><p>MySQL</p></div>
+            <div><i class="fab fa-js"></i><p>JavaScript</p></div>
+            <div><i class="fab fa-figma"></i><p>Figma</p></div>
+            <div><i class="fas fa-code"></i><p>C</p></div>
+          </div>
+        </div>
+
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>2024</span><br>Academic MERN & Java projects</li>
+            <li><span>2025</span><br>Online Grocery Store System</li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>Sri Lanaka Institute of Information Technology | Malabe, Sri Lanka</span><br>
+                     • Information Technology(2023 May - Present) | Graduation Year -2027</li>
+            <li><span>ST. Thomas Girls High School(Bio
+Scienc)</span><br>GCE Advanced Level-2022(2023)</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- ---------- Services ---------- -->
+  <div id="services">
+
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+
+    <div class="Services-list">
+
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>Creative and modern website designs that are visually appealing, user-friendly, and fully responsive.</p>
+        <a href="#">Learn more</a>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-laptop-code"></i>
+        <h2>Frontend Development</h2>
+        <p>Interactive and dynamic web interfaces using HTML, CSS, JavaScript, and modern UI principles.</p>
+        <a href="#">Learn more</a>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-server"></i>
+        <h2>Backend Development</h2>
+        <p>Secure and efficient server-side development with databases, APIs, and authentication systems.</p>
+        <a href="#">Learn more</a>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-cart-shopping"></i>
+        <h2>Web Application Development</h2>
+        <p>Custom web applications such as online stores, management systems, and dashboards.</p>
+        <a href="#">Learn more</a>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-mobile-screen-button"></i>
+        <h2>Mobile App Design</h2>
+        <p>User-friendly mobile app designs focused on performance and modern UI standards.</p>
+        <a href="#">Learn more</a>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-shield-halved"></i>
+        <h2>Authentication & Security</h2>
+        <p>Secure login systems with email verification, OTP authentication, and role-based access.</p>
+        <a href="#">Learn more</a>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-database"></i>
+        <h2>Database Management</h2>
+        <p>Efficient database design, data storage, retrieval, and backup solutions.</p>
+        <a href="#">Learn more</a>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-diagram-project"></i>
+        <h2>System Analysis & Design</h2>
+        <p>Requirement analysis and scalable system design for efficient software solutions.</p>
+        <a href="#">Learn more</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <!-- ---------- Portfolio ---------- -->
+  
+    
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+
+    <div class="work-list">
+
+      <!-- Project 1 -->
+      <div class="work">
+        <img src="images/work-1.png" alt="BidFire Project">
+        <div class="layer">
+          <h3>BidFire – Online Auction Platform</h3>
+          <p>
+            Online auction platform built with PHP, HTML, and CSS.
+            Focused on UI/UX for smooth and interactive bidding.
+            Completed in 1st Year 2nd Semester at SLIIT.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/nehansasandani/bidfire" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://youtu.be/JMIM91rYN-c" target="_blank">
+              <i class="fa-solid fa-globe"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="work">
+        <img src="images/work-2.png" alt="Event Planning System">
+        <div class="layer">
+          <h3>Online Event Planning System</h3>
+          <p>
+            Java-based system using OOP principles for event booking,
+            authentication, reviews, and ratings.
+            Completed in 2nd Year 1st Semester at SLIIT.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/nehansasandani/Event-planing" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://youtu.be/LgVxe-9ePms" target="_blank">
+              <i class="fa-solid fa-globe"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="work">
+        <img src="images/work-3.png" alt="Employee Salary Management System">
+        <div class="layer">
+          <h3>Employee Salary Management System</h3>
+          <p>
+            MERN stack payroll system for an Online Grocery Store.
+            Automates salary calculation, attendance, payslips,
+            and admin approvals.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/nehansasandani/employee-salary-managt" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://youtu.be/PmgKuMrSWLs" target="_blank">
+              <i class="fa-solid fa-globe"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="work">
+        <img src="images/work-3.png" alt="UI UX Redesign Project">
+        <div class="layer">
+          <h3>UI/UX Redesign – GatesNFences</h3>
+          <p>
+            UI/UX redesign project using User-Centered Design (UCD).
+            Conducted user interviews and redesigned key pages
+            using MockFlow and Figma.
+          </p>
+          <div class="project-links">
+            <a href="https://www.figma.com/design/Lnlj9B65qHaQyRYxFJFvQk/HCI--IT3060--2025-WD-S1-10?node-id=3-16&t=T4R7rKOhpF69w7ev-1" target="_blank">
+              <i class="fa-brands fa-figma"></i>
+            </a>
+            <a href="https://youtu.be/dSSR7DRi5Ac" target="_blank">
+              <i class="fa-solid fa-globe"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <a href="https://github.com/nehansasandani" class="btn">See More</a>
+  </div>
+</div>
+
+  <!-- ---------- Contact ---------- -->
+  <div id="contact">
+    <div class="contact">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>wijesinghesandani2001@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>0784735662</p>
+          <div class="social-icons">
+            <a href="https://github.com/nehansasandani"><i class="fa-brands fa-github"></i></a>
+            <a href="https://web.facebook.com/sandani.nehansa.7"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/sandaniwijesinghe/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/sandani-nehansa-0b5067395/"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+
+            <form action="">
+              <input type ="text" name="Name" placeholder="Your Name"  required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message "></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+      </div>
+    </div>
+  </div>
+     <div class="copyright">
+       <p>Copyright © 2025 - All right reserved</i> by Sandani Wijesinghe</p>
+
+     </div>
+
+</div>
+  <!-- ---------- Script ---------- -->
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname, element) {
+      for (let tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (let tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      element.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemenu.style.right ="0";
+    }
+    function closemenu(){
+      sidemenu.style.right ="200px";
+    }
+
+  </script>
+
+</body>
+</html>
